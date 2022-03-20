@@ -32,4 +32,5 @@ function random(n, a) {
     }
 }
 
+console.log(solution());
 solution();
