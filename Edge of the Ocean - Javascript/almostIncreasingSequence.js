@@ -38,7 +38,7 @@ function solution(sequence) {
         }
     }
 
-    for (let i = 0; i < sequence.length; i++) {
+    for (let i = 0; i < sequence2.length; i++) {
         if (sequence2[i] >= sequence2[i + 1]) {
             sequence2.splice(i, 1);
             counter2++;
